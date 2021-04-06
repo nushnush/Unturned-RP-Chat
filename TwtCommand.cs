@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace RPMessages
 {
-    public class TwtCommand
+    public class TwtCommand : IRocketCommand
     {
         public AllowedCaller AllowedCaller => AllowedCaller.Player;
         public string Name => "twt ";
