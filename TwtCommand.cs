@@ -9,7 +9,7 @@ namespace RPMessages
     public class TwtCommand : IRocketCommand
     {
         public AllowedCaller AllowedCaller => AllowedCaller.Player;
-        public string Name => "twt ";
+        public string Name => "twt";
         public string Help => "Twitter message.";
         public string Syntax => "<>";
         public List<string> Aliases => new List<string>();
